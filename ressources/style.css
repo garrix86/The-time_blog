@@ -1,0 +1,250 @@
+
+
+body {
+  margin: 0;
+}
+
+
+/*-------------CONTAINER ---------------*/
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  /*border: 2px solid green;*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 1 75%;
+  padding: 0.50rem 1rem;
+  border-bottom: 1px solid black;
+}
+
+/* Logo section */
+#logo {
+  display: flex;
+  flex: 0 1 10%;
+  justify-content: center;
+  align-items:  center;
+  margin: 3px;
+  color: MediumAquamarine;
+}
+
+#logo img {
+  margin-right: 10px;
+}
+
+#logo h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* nav section */
+nav {
+  flex: 0 1 15%;
+  margin-right: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+nav a {
+  color: black;
+}
+/*-------------END HEADER----------*/
+
+/*------------Position Main CONTAINER-------*/
+
+.container {
+  /*border: 2px dashed red;-------------------------------------------------------------------*/
+  display: flex;
+  justify-content: center;
+}
+/*main column*/
+.column {
+  /*border: 2px solid yellow;-------------------------------------------------------------------*/
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 65%;
+  justify-content: space-between;
+  padding: 25px 25px 0 0;
+  align-items: flex-start;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/*Large column*/
+.column .large {
+  /*background-color: red;--------------------------------------------------------------------*/
+  width: 630px;
+  padding: 0;
+  margin: 0;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.article_1 ,
+.article_2 {
+  flex-basis: 45%;
+}
+
+/*Medium column*/
+.column .medium {
+  /*background-color: yellow;--------------------------------------------------------------------------*/
+  width: 300px;
+}
+
+/*Small column*/
+.column .small {
+  /*background-color: orange;--------------------------------------------------------------------------*/
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  images */
+
+.main-story {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
+  min-height: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fall_season {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+  min-height: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hipster {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+  min-height: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+  min-height: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* paragraphe + Title */
+
+ h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: inline-flex;
+  padding: 10px;
+  margin:0;
+  text-align: center;
+}
+
+ h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: inline-flex;
+  padding: 15px;
+  margin:0;
+}
+
+h4 {
+
+}
+
+/* Costumize 3ème column */
+
+.article_5 h4 {
+  margin: 0;
+  padding-bottom: 45px;
+  border-top: black;
+  border-bottom: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: White;
+}
+
+.article_5 p {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+/*-----------FOOTER--------*/
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  min-height: 275px;
+  align-items: center;
+}
+
+footer #logo {
+display: flex;
+flex-flow: row wrap;
+flex-basis: 40%;
+
+
+}
+
+footer nav {
+  /*background-color: green;------------------------------------------------------------*/
+  flex: 0 1 15%;
+  margin-right: 15px;
+  display: flex;
+  flex-basis: 40%;
+}
+
+footer h1 {
+  /*background-color: red;--------------------------------------------------------------*/
+  font-family: Georgia , serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-basis: 30%;
+
+}
+
+
+
+#logo p {
+  color: black;
+  display: flex;
+  flex-basis: 100%;
+  padding: : 15px;
+}

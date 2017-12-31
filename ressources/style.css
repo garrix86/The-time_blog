@@ -64,13 +64,12 @@ nav a {
 /*------------Position Main CONTAINER-------*/
 
 .container {
-  /*border: 2px dashed red;-------------------------------------------------------------------*/
   display: flex;
   justify-content: center;
 }
+
 /*main column*/
 .column {
-  /*border: 2px solid yellow;-------------------------------------------------------------------*/
   display: flex;
   flex-flow: row wrap;
   flex: 0 1 65%;
@@ -84,7 +83,6 @@ nav a {
 
 /*Large column*/
 .column .large {
-  /*background-color: red;--------------------------------------------------------------------*/
   width: 630px;
   padding: 0;
   margin: 0;
@@ -100,13 +98,11 @@ nav a {
 
 /*Medium column*/
 .column .medium {
-  /*background-color: yellow;--------------------------------------------------------------------------*/
   width: 300px;
 }
 
 /*Small column*/
 .column .small {
-  /*background-color: orange;--------------------------------------------------------------------------*/
   width: 240px;
   display: flex;
   flex-direction: column;
@@ -222,7 +218,6 @@ flex-basis: 40%;
 }
 
 footer nav {
-  /*background-color: green;------------------------------------------------------------*/
   flex: 0 1 15%;
   margin-right: 15px;
   display: flex;
@@ -230,7 +225,6 @@ footer nav {
 }
 
 footer h1 {
-  /*background-color: red;--------------------------------------------------------------*/
   font-family: Georgia , serif;
   font-size: 16px;
   font-weight: bold;
